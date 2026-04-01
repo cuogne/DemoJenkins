@@ -19,3 +19,15 @@
 ![](./img/bt2.png)
 
 > Để Jenkinsfile trong repo để Jenkins quét
+> Branch mặc định trên jenkins là `master` (nhớ sửa)
+
+## Question 3:
+3. Add agent vào Jenkins with label: `for-testing`
+
+## Question 4:
+4. Update code chạy job trên Agent
+
+## Question 5:
+5. Tạo parameters trong Jenkins để có Option chạy test hay không ?
+- Run test => dropdown: Yes/No
+- Nếu chọn Yes => chạy stage test, nếu chọn No => ko chạy

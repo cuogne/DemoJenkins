@@ -46,5 +46,6 @@ pipeline {
     }
     failure {
       echo 'Some tests failed. Please check the logs.'
+    }
   }
 }
