@@ -1,5 +1,8 @@
 pipeline {
-  agent any
+  // agent any
+  
+  // for question 4:
+  agent { label 'for-testing' }
 
   options {
     timestamps()

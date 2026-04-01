@@ -19,10 +19,25 @@
 ![](./img/bt2.png)
 
 > Để Jenkinsfile trong repo để Jenkins quét
+
 > Branch mặc định trên jenkins là `master` (nhớ sửa)
 
 ## Question 3:
 3. Add agent vào Jenkins with label: `for-testing`
+
+- Vào Jenkins -> Manage Jenkins -> Nodes -> New Node
+
+> Remote root directory: `/home/jenkins`
+
+> Labels: `for-testing`
+
+> Launch method: Launch agents via SSH và nhập HOST, CREDENTIALS username/password do thầy cấp (8 đô của thầy :D)
+
+> Host key chọn: `Non verifying Verification Strategy`
+
+![](./img/bt4.png)
+
+![](./img/bt4-2.png)
 
 ## Question 4:
 4. Update code chạy job trên Agent
